@@ -1,4 +1,11 @@
-*,
+:root {
+  --main-font-family: "Nunito", sans-serif;
+  --seconday-font-family: "Nunito", sans-serif;
+  --main-color: #000;
+  --secondary-color: #ed6436;
+  --light-color: #fff;
+}
+
 ::before,
 ::after {
   box-sizing: border-box;
