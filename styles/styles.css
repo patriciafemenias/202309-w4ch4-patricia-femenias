@@ -88,3 +88,23 @@ html {
 .images-container__image:hover {
   filter: brightness(0.5);
 }
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  display: none;
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 15%;
+  left: 32%;
+  z-index: 3;
+  color: var(--light-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+figure:hover > figcaption {
+  display: block;
+}
